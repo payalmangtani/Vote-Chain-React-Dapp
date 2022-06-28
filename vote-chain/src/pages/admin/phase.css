@@ -1,0 +1,49 @@
+* {
+    font-family: 'Lato', sans-serif; /* Change your font family */
+  }
+  .phase-body {
+    margin-top: 150px;
+    margin-left: 400px;
+  }
+  
+  .content-table {
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 15px;
+    min-width: 700px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    /*box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);*/
+  }
+  
+  .content-table thead tr {
+    background-color: #00FFFF;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+  }
+  .thead {
+      font-size: 20px;
+  }
+  .content-table th,
+  .content-table td {
+    padding: 25px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 2px solid #00FFFF;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #00FFFF;
+  }
+  #button1 {
+      background-color: #00FFFF;
+      border-radius: 5px;
+      color: black;
+  }

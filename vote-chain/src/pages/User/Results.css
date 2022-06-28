@@ -1,0 +1,149 @@
+* {
+    font-family: 'Lato', sans-serif; 
+  }
+  .results-body {
+    margin-left: 350px;
+    margin-top: 150px;
+  }
+  .results-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .results-table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .results-table tr:hover {background-color: rgb(219, 219, 190);}
+  .results-box {
+    border: 2px;
+    width: 900px;
+
+  }
+  .results-h1 {
+    color: white;
+    background-color: #90EE90;
+    text-align: center;
+  }
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  .container-winner {
+    transition: ease all 0.75s;
+    background-color: #f5fffa;
+    border-radius: 7px;
+    width: 700px;
+    padding: 25px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    overflow: auto;
+  }
+  .winner-slogan {
+    padding: 7px 7px 7px 1px;
+    color: #ccab00;
+    font-size: 1.5em;
+    margin: 7px 0px;
+    text-align: justify;
+    overflow: auto;
+  }
+  .winner-info {
+    width: 73%;
+    max-height: 150px;
+    display: inline-block;
+    margin-right: 1%;
+  
+  }
+  .winner-votes {
+    width: 25%;
+    padding: 3px;
+    display: inline-block;
+    margin-left: 1%;
+  }
+  .winner-tag {
+    text-align: left;
+    color: hotpink;
+  }
+  .votes-tag {
+    text-align: left;
+    color: darkgray;
+  }
+  .vote-count {
+    margin-top: 11px;
+    padding: 3px;
+    font-size: 57px;
+    overflow-y: auto;
+    text-align: center;
+  }
+  @media all and (max-width: 850px) {
+    .container-winner {
+      width: 700px;
+    }
+  }
+  @media all and (max-width: 750px) {
+    .container-winner {
+      width: 600px;
+    }
+  }
+  @media all and (max-width: 650px) {
+    .container-winner {
+      width: 400px;
+    }
+  }
+  @media all and (max-width: 400px) {
+    .container-winner {
+      width: 300px;
+    }
+  }
+  .register-body {
+    margin-top: 10px;
+    background: white;
+    /*box-shadow: 5px 10px 8px 5px #888888;*/
+    box-shadow:0 14px 28px rgba(0,0,0,0.25);
+    justify-content:center;
+    align-items:center;
+    font-family: 'Montserrat', sans-serif;
+    
+    max-height:200px;
+    margin-left: 370px;
+    margin-right: 200px;
+    position: relative;
+    
+  }
+
+  .candetails-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .candetails-table th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .candetails-table tr:hover {background-color: rgb(219, 219, 190);}
+  .candetails-box {
+    border: 2px;
+    width: 900px;
+
+  }
+  .candetails-h1 {
+    color: white;
+    background-color: #00FFFF;
+    text-align: center;
+  }

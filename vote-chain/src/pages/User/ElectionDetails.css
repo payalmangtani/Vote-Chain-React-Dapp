@@ -1,0 +1,32 @@
+.guide-body{
+    /*background-color: rgb(188, 240, 240);*/
+    margin-left: 320px;
+    margin-top: 100px;
+    font-family: 'Lato', sans-serif;
+}
+.guide-h1{
+    background-color: #00FFFF;
+    width: 800px;
+    color: black;
+    text-align: left;
+    font-weight: bold;
+}
+.guide-h4{
+    background-color: #00FFFF;
+    display: initial;
+    
+}
+.guide-box {
+    border: 2px;
+    width: 800px;
+}
+.electionst-body {
+	margin-top: 120px;
+	background: #f6f5f7;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	max-height:200px;
+    max-width:900px;
+	margin-left: 370px;
+}

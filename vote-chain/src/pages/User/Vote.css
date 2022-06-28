@@ -1,0 +1,153 @@
+.vote-body{
+    margin-top: 70px;
+    margin-left: 300px;
+}
+.row1 {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.row2 {
+    padding-top: 20px;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    
+}
+.col1-2 {
+    padding-left: 20px;
+}
+.col1-3 {
+    padding-left: 20px;
+}
+.col2-2 {
+    padding-left: 20px;
+}
+.col2-3 {
+    padding-left: 20px;
+}
+.register-bodyy {
+	
+	background: white;
+	justify-content: center;
+	align-items: center;
+	font-family: 'Montserrat', sans-serif;
+	box-shadow:0 14px 28px rgba(0,0,0,0.25);
+	max-height: 400px;
+	margin-left: 300px;
+	margin-right: 200px;
+}
+h2,
+h3 {
+  padding: 11px 1px;
+  margin: auto;
+  text-align: left;
+}
+small {
+  color: grey;
+  font-size: medium;
+}
+p {
+  margin: 1px;
+  padding: 3px;
+}
+.contact {
+  color: grey;
+}
+.slogan {
+  color: #ccab00;
+  font-size: 1.5em;
+  margin: 7px 0px;
+}
+.discription {
+  padding: 11px;
+  padding-left: 1px;
+  text-align: justify;
+  max-height: 111px;
+  overflow: auto;
+  line-height: 1.5em;
+}
+
+.candidate-info {
+  transition: ease all 0.5s;
+  width: 70%;
+  float: left;
+  margin-left: 1%;
+  background-color: #e5e5e5;
+  border-radius: 11px;
+}
+.vote-btn-container {
+  transition: ease all 0.5s;
+  height: 10%;
+  width: 20%;
+  float: right;
+  margin-left: 1%;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+.vote-bth {
+  width: 100%;
+  height: 55px;
+  font-size: 157%;
+}
+@media all and (max-width: 900px) {
+  .candidate-info,
+  .vote-btn-container {
+    width: 50%;
+    height: 50%;
+  }
+}
+th,
+  td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:nth-child(even) {
+    background-color: white;
+  }
+  .container-winner {
+    
+    background-color: #f5fffa;
+    border-radius: 7px;
+    min-width: 900px;
+   
+    
+  
+  }
+  .winner-slogan {
+    padding: 7px 7px 7px 1px;
+    color: #ccab00;
+    font-size: 1.5em;
+    margin: 7px 0px;
+    text-align: justify;
+    
+  }
+  .winner-info {
+   
+    height: 250px;
+    display: inline-block;
+    
+  }
+  .winner-votes {
+    
+    height: 200px;
+    display: inline-block;
+  }
+  .winner-tag {
+    text-align: left;
+    color: hotpink;
+  }
+  .votes-tag {
+    margin-left:270px;
+    margin-right: 270px;
+    text-align: left;
+    color: darkgray;
+  }
+  .vote-count {
+    padding:0px;
+  }
+  
+  
