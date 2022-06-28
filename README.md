@@ -3,6 +3,8 @@ Vote-Chain ,
 A Decentralized Voting System Using  Blockchain ,
 Languages Used:
 JavaScript (React js Library) ,
+HTML ,
+CSS ,
 Solidity (For developing smart contract)
 
 Tools Used:
